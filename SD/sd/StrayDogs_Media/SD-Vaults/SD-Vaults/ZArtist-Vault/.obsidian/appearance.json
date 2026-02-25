@@ -1,0 +1,6 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Midnight",
+  "enabledCssSnippets": ["zed-ice"],
+  "baseFontSize": 16
+}

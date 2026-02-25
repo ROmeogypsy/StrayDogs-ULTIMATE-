@@ -1,0 +1,83 @@
+/* ── SD Universe v2 — Living World Engine Styles ─────────────────────────── */
+
+/* Rule box at top of drawer */
+#sd_universe_v2_settings .sd-rule-box {
+    background: rgba(139, 69, 19, 0.12);
+    border-left: 3px solid #8b4513;
+    border-radius: 0 6px 6px 0;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 0.78rem;
+    color: var(--SmartThemeBodyColor, #ccc);
+    line-height: 1.6;
+}
+
+/* Section headings within drawer */
+#sd_universe_v2_settings .sd-section-head {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #8b4513;
+    margin: 12px 0 4px 0;
+    border-top: 1px solid var(--SmartThemeBorderColor, #333);
+    padding-top: 8px;
+}
+
+/* Status bar at the bottom of the drawer */
+#sd_v2_status {
+    margin-top: 10px;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-family: 'Courier New', monospace;
+    background: rgba(0,0,0,0.2);
+    color: #d4a555;
+    border: 1px solid rgba(212, 165, 85, 0.15);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Custom character input block */
+#sd_v2_custom_block {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Make the checkbox labels look consistent */
+#sd_universe_v2_settings .checkbox_label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 2px 0;
+}
+
+#sd_universe_v2_settings .checkbox_label input[type="checkbox"] {
+    accent-color: #8b4513;
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
+
+/* select/input theming to match ST dark ui */
+#sd_universe_v2_settings select.text_pole,
+#sd_universe_v2_settings input.text_pole,
+#sd_universe_v2_settings textarea.text_pole {
+    background: var(--SmartThemeBlurTintColor, #1e1e1e);
+    border-color: var(--SmartThemeBorderColor, #444);
+    color: var(--SmartThemeBodyColor, #ccc);
+    font-size: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+}
+
+#sd_universe_v2_settings select.text_pole:focus,
+#sd_universe_v2_settings input.text_pole:focus,
+#sd_universe_v2_settings textarea.text_pole:focus {
+    outline: none;
+    border-color: #8b4513;
+}

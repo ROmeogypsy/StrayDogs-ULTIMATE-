@@ -1,0 +1,84 @@
+/* K-9 VAULT — FIRE THEME */
+/* Hot red-orange palette. Aggressive. In your face. */
+
+:root {
+  --color-accent: #ff3c00;
+  --color-accent-1: #ff6a00;
+  --color-accent-2: #ff0033;
+  --interactive-accent: #ff3c00;
+  --interactive-accent-hover: #ff6a00;
+  --text-accent: #ff3c00;
+  --text-accent-hover: #ff6a00;
+  --background-primary: #0d0a09;
+  --background-primary-alt: #130e0c;
+  --background-secondary: #1a1210;
+  --background-secondary-alt: #201612;
+  --background-modifier-border: #3d2015;
+  --text-normal: #f0e0d0;
+  --text-muted: #8a6a5a;
+  --text-faint: #5a3a2a;
+}
+
+/* Burning header gradient */
+.markdown-source-view .cm-header-1,
+.markdown-preview-view h1 {
+  background: linear-gradient(90deg, #ff3c00, #ff6a00, #ffaa00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.markdown-preview-view h2 { color: #ff6a00; }
+.markdown-preview-view h3 { color: #ffaa00; }
+
+/* Lyrics block — double spaced, hot white */
+.markdown-preview-view blockquote {
+  border-left: 4px solid #ff3c00;
+  background: #1a0d08;
+  color: #ffe0cc;
+  font-family: var(--font-monospace);
+  line-height: 2.2;
+  letter-spacing: 0.02em;
+  padding: 16px 20px;
+}
+
+/* Tag pills */
+.tag {
+  background-color: rgba(255, 60, 0, 0.15);
+  border: 1px solid rgba(255, 60, 0, 0.4);
+  color: #ff6a00;
+}
+
+/* Word count in status bar — glows red when active */
+.status-bar-item[data-section="word-count"] {
+  color: #ff6a00;
+  font-weight: bold;
+}
+
+/* Tables */
+.markdown-preview-view th {
+  background: #3d1a08;
+  color: #ff6a00;
+}
+
+/* Callouts */
+.callout[data-callout="bar"] {
+  --callout-color: 255, 60, 0;
+  --callout-icon: "🎤";
+}
+
+.callout[data-callout="heat"] {
+  --callout-color: 255, 106, 0;
+  --callout-icon: "🔥";
+}
+
+/* Active line highlight */
+.cm-active-line {
+  background: rgba(255, 60, 0, 0.06) !important;
+}
+
+/* Cursor */
+.cm-cursor { border-left-color: #ff3c00 !important; }

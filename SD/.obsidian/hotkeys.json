@@ -1,0 +1,38 @@
+{
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "T"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": ["Mod"],
+      "key": "Q"
+    }
+  ],
+  "longform:open-longform": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "L"
+    }
+  ],
+  "obsidian-focus-mode:toggle-focus-mode": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "F"
+    }
+  ],
+  "graph:open": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "G"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": ["Mod"],
+      "key": "\\"
+    }
+  ]
+}

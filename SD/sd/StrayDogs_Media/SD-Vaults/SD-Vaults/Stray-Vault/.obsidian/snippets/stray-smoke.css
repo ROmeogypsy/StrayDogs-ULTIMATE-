@@ -1,0 +1,94 @@
+/* STRAY VAULT — SMOKE THEME */
+/* Grey. Atmospheric. What's NOT said matters as much as what is. */
+
+:root {
+  --color-accent: #9a9a9a;
+  --color-accent-1: #bbbbbb;
+  --interactive-accent: #9a9a9a;
+  --interactive-accent-hover: #cccccc;
+  --text-accent: #b0b0b0;
+  --background-primary: #0e0e0e;
+  --background-primary-alt: #111111;
+  --background-secondary: #141414;
+  --background-secondary-alt: #181818;
+  --background-modifier-border: #2a2a2a;
+  --text-normal: #d4d4d4;
+  --text-muted: #666666;
+  --text-faint: #3a3a3a;
+}
+
+/* Headers — understated, not loud */
+.markdown-preview-view h1 {
+  color: #ffffff;
+  font-size: 1.6em;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #2a2a2a;
+  padding-bottom: 8px;
+}
+
+.markdown-preview-view h2 { color: #aaaaaa; font-weight: 400; }
+.markdown-preview-view h3 { color: #777777; font-weight: 400; font-style: italic; }
+
+/* Lyrics — spaced out, like the bars themselves */
+.markdown-preview-view blockquote {
+  border-left: 2px solid #444444;
+  background: transparent;
+  color: #cccccc;
+  font-family: "Georgia", serif;
+  line-height: 2.8;
+  letter-spacing: 0.04em;
+  padding: 12px 24px;
+  font-style: italic;
+}
+
+/* The gap is the point — extra spacing between paragraphs */
+.markdown-preview-view p {
+  margin-bottom: 1.6em;
+  line-height: 1.9;
+}
+
+/* Tag pills — barely there */
+.tag {
+  background-color: rgba(150, 150, 150, 0.08);
+  border: 1px solid rgba(150, 150, 150, 0.2);
+  color: #777;
+}
+
+/* Tables — newspaper grey */
+.markdown-preview-view th {
+  background: #1e1e1e;
+  color: #999;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+
+/* Callouts */
+.callout[data-callout="witness"] {
+  --callout-color: 150, 150, 150;
+  --callout-icon: "👁️";
+}
+.callout[data-callout="silence"] {
+  --callout-color: 80, 80, 80;
+  --callout-icon: "—";
+}
+.callout[data-callout="pivot"] {
+  --callout-color: 180, 180, 100;
+  --callout-icon: "↩️";
+}
+
+/* Active line — barely visible */
+.cm-active-line { background: rgba(255,255,255,0.02) !important; }
+
+/* Cursor — thin white line */
+.cm-cursor { border-left-color: #888888 !important; border-left-width: 1px !important; }
+
+/* Readable line length — Stray thinks in long form */
+.markdown-source-view.mod-cm6 .cm-content,
+.markdown-preview-view {
+  max-width: 680px;
+  margin: 0 auto;
+}

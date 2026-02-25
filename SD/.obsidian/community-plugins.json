@@ -1,0 +1,17 @@
+{
+  "enabledPlugins": [
+    "templater-obsidian",
+    "dataview",
+    "obsidian-kanban",
+    "obsidian-outliner",
+    "obsidian-calendar-plugin",
+    "obsidian-reminder-plugin",
+    "longform",
+    "obsidian-tag-wrangler",
+    "obsidian-footnotes",
+    "find-and-replace-in-selection",
+    "obsidian-focus-mode",
+    "obsidian-minimal-settings",
+    "quickadd"
+  ]
+}

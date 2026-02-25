@@ -1,0 +1,9 @@
+{
+  "quickadd:runQuickAdd": [{"modifiers":["Mod"],"key":"Q"}],
+  "obsidian-focus-mode:toggle-focus-mode": [{"modifiers":["Mod","Shift"],"key":"F"}],
+  "longform:open-longform": [{"modifiers":["Mod","Shift"],"key":"L"}],
+  "obsidian-kanban:create-new-kanban-board": [{"modifiers":["Mod","Shift"],"key":"K"}],
+  "graph:open": [{"modifiers":["Mod","Shift"],"key":"G"}],
+  "canvas:new-canvas": [{"modifiers":["Mod","Shift"],"key":"C"}],
+  "app:toggle-left-sidebar": [{"modifiers":["Mod"],"key":"\\"}]
+}

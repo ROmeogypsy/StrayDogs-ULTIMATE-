@@ -1,0 +1,9 @@
+{
+  "quickadd:runQuickAdd": [{"modifiers":["Mod"],"key":"Q"}],
+  "obsidian-focus-mode:toggle-focus-mode": [{"modifiers":["Mod","Shift"],"key":"F"}],
+  "longform:open-longform": [{"modifiers":["Mod","Shift"],"key":"L"}],
+  "obsidian-word-sprint:start-sprint": [{"modifiers":["Mod","Shift"],"key":"W"}],
+  "graph:open": [{"modifiers":["Mod","Shift"],"key":"G"}],
+  "audio-recorder:start": [{"modifiers":["Mod","Shift"],"key":"R"}],
+  "app:toggle-left-sidebar": [{"modifiers":["Mod"],"key":"\\"}]
+}

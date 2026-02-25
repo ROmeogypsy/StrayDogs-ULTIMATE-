@@ -1,0 +1,19 @@
+{
+  "enabledPlugins": [
+    "templater-obsidian",
+    "dataview",
+    "quickadd",
+    "obsidian-kanban",
+    "longform",
+    "obsidian-focus-mode",
+    "obsidian-git",
+    "obsidian-tag-wrangler",
+    "obsidian-dynamic-highlights",
+    "obsidian-heatmap-tracker",
+    "obsidian-linter",
+    "obsidian-footnotes",
+    "obsidian-checklist-plugin",
+    "obsidian-timeline",
+    "various-complements"
+  ]
+}

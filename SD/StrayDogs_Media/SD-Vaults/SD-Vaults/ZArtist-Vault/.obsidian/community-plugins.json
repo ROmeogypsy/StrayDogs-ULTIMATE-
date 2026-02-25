@@ -1,0 +1,18 @@
+{
+  "enabledPlugins": [
+    "templater-obsidian",
+    "dataview",
+    "quickadd",
+    "longform",
+    "obsidian-focus-mode",
+    "obsidian-excalidraw-plugin",
+    "obsidian-kanban",
+    "obsidian-footnotes",
+    "obsidian-cycle-through-panes",
+    "obsidian-dynamic-highlights",
+    "typewriter-mode",
+    "obsidian-annotator",
+    "obsidian-image-toolkit",
+    "obsidian-gallery"
+  ]
+}

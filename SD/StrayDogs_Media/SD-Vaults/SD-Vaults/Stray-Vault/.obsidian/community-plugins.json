@@ -1,0 +1,19 @@
+{
+  "enabledPlugins": [
+    "templater-obsidian",
+    "dataview",
+    "quickadd",
+    "longform",
+    "obsidian-focus-mode",
+    "obsidian-minimal-settings",
+    "obsidian-style-settings",
+    "obsidian-reading-time",
+    "obsidian-sliding-panes",
+    "obsidian-footnotes",
+    "obsidian-journey",
+    "obsidian-excalidraw-plugin",
+    "obsidian-enhancing-mindmap",
+    "obsidian-random-note",
+    "typewriter-mode"
+  ]
+}

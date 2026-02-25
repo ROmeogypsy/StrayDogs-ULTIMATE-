@@ -1,0 +1,112 @@
+/* SD MEDIA COLLAB VAULT — ALL FOUR VOICES */
+/* The intersection. Where fire, smoke, ice, and scripture meet. */
+
+:root {
+  --color-accent: #cc4400;
+  --interactive-accent: #cc4400;
+  --background-primary: #080808;
+  --background-primary-alt: #0c0c0c;
+  --background-secondary: #101010;
+  --background-secondary-alt: #141414;
+  --background-modifier-border: #2a2a2a;
+  --text-normal: #e8e8e8;
+  --text-muted: #666666;
+}
+
+/* ── WRITER COLOR SYSTEM ── */
+/* Used in callouts, tags, and graph view */
+
+/* K-9 elements */
+.tag[href="#k9"], .tag[href="#k-9"] {
+  background: rgba(255, 60, 0, 0.15);
+  border-color: rgba(255, 60, 0, 0.5);
+  color: #ff6a00;
+}
+
+/* Stray elements */
+.tag[href="#stray"] {
+  background: rgba(160, 160, 160, 0.1);
+  border-color: rgba(160, 160, 160, 0.3);
+  color: #aaaaaa;
+}
+
+/* Z-Artist elements */
+.tag[href="#z-artist"] {
+  background: rgba(68, 136, 255, 0.12);
+  border-color: rgba(68, 136, 255, 0.4);
+  color: #66aaff;
+}
+
+/* Dog-Prophet elements */
+.tag[href="#dog-prophet"] {
+  background: rgba(153, 102, 255, 0.12);
+  border-color: rgba(153, 102, 255, 0.4);
+  color: #aa77ff;
+}
+
+/* ── COLLAB CALLOUTS ── */
+
+.callout[data-callout="k9"] {
+  --callout-color: 255, 60, 0;
+  --callout-icon: "🔥";
+}
+.callout[data-callout="stray"] {
+  --callout-color: 150, 150, 150;
+  --callout-icon: "🌫️";
+}
+.callout[data-callout="z-artist"] {
+  --callout-color: 68, 136, 255;
+  --callout-icon: "🎨";
+}
+.callout[data-callout="dog-prophet"] {
+  --callout-color: 153, 102, 255;
+  --callout-icon: "📜";
+}
+.callout[data-callout="all"] {
+  --callout-color: 200, 150, 50;
+  --callout-icon: "🐕";
+}
+.callout[data-callout="session"] {
+  --callout-color: 100, 200, 100;
+  --callout-icon: "⚡";
+}
+
+/* ── LYRICS ── */
+/* Collab tracks have multi-voice lyrics — use blockquote nesting */
+.markdown-preview-view blockquote {
+  border-left: 3px solid #444;
+  background: #0d0d0d;
+  color: #ddd;
+  font-family: var(--font-monospace);
+  line-height: 2.2;
+  padding: 16px 20px;
+}
+
+/* Nested blockquote = second voice */
+.markdown-preview-view blockquote blockquote {
+  border-left-color: #ff4400;
+  background: #130a06;
+  color: #ffcc99;
+}
+
+/* Triple nested = Prophet response */
+.markdown-preview-view blockquote blockquote blockquote {
+  border-left-color: #9966ff;
+  background: #0d0a1a;
+  color: #cc99ff;
+}
+
+/* ── KANBAN ── */
+.kanban-plugin__lane:nth-child(1) .kanban-plugin__lane-header-wrapper { background: #1a0a06; }
+.kanban-plugin__lane:nth-child(2) .kanban-plugin__lane-header-wrapper { background: #0a0a1a; }
+.kanban-plugin__lane:nth-child(3) .kanban-plugin__lane-header-wrapper { background: #0a1006; }
+.kanban-plugin__lane:nth-child(4) .kanban-plugin__lane-header-wrapper { background: #1a0a1a; }
+
+/* H1 — the SD Media masthead */
+.markdown-preview-view h1 {
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  border-bottom: 2px solid #333;
+  padding-bottom: 8px;
+}
