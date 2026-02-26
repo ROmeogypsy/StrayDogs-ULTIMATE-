@@ -1,0 +1,21 @@
+{
+  "livePreview": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showFrontmatter": true,
+  "defaultViewMode": "preview",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "./",
+  "promptDelete": true,
+  "alwaysUpdateLinks": true,
+  "vimMode": false,
+  "showLineNumber": false,
+  "spellcheck": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showIndentGuide": true,
+  "cssTheme": "Obsidian",
+  "baseFontSize": 16,
+  "theme": "obsidian"
+}

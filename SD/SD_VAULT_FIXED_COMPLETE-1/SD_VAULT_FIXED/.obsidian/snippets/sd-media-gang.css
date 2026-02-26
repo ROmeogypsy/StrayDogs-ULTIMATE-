@@ -1,0 +1,218 @@
+/* ================================================
+   STRAY DOGS MEDIA - GANG STYLED CSS
+   North Ends, London | All 66 Dogs | Sin Miedo
+   ================================================ */
+
+:root {
+  --sd-blood-red: #8B0000;
+  --sd-neon-red: #FF0033;
+  --sd-graffiti-red: #E63946;
+  --sd-concrete: #2A2A2A;
+  --sd-asphalt: #1A1A1A;
+  --sd-gold-chain: #FFD700;
+  --sd-neon-green: #39FF14;
+  --sd-royal-blue: #4169E1;
+}
+
+/* BACKGROUND - London night with grid */
+body {
+  background-color: var(--sd-asphalt);
+  background-image:
+    linear-gradient(rgba(139, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* HEADERS - Graffiti style */
+.markdown-preview-view h1 {
+  color: var(--sd-neon-red) !important;
+  font-family: 'Arial Black', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 3px solid var(--sd-blood-red);
+  padding-bottom: 8px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.markdown-preview-view h2 {
+  color: var(--sd-graffiti-red) !important;
+  text-transform: uppercase;
+  border-left: 5px solid var(--sd-blood-red);
+  padding-left: 15px;
+}
+
+/* LINKS - Tagged connections */
+.markdown-preview-view .internal-link {
+  color: var(--sd-neon-red) !important;
+  font-weight: 600;
+}
+
+.markdown-preview-view .internal-link::before {
+  content: '🐕 ';
+  opacity: 0.6;
+  font-size: 0.8em;
+}
+
+.markdown-preview-view .internal-link:hover {
+  color: var(--sd-gold-chain) !important;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* TAGS - Dog tags */
+.tag {
+  background: linear-gradient(135deg, var(--sd-blood-red), #B22222);
+  color: #FFFFFF !important;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.tag:hover {
+  background: var(--sd-gold-chain);
+  color: var(--sd-asphalt) !important;
+  transform: translateY(-2px);
+}
+
+.tag[href="#character"] { background: var(--sd-royal-blue); }
+.tag[href="#location"] { background: var(--sd-neon-green); color: #000 !important; }
+.tag[href="#track"] { background: var(--sd-graffiti-red); }
+.tag[href="#high-command"] {
+  background: linear-gradient(135deg, var(--sd-gold-chain), #B22222);
+  color: #000 !important;
+}
+
+/* CALLOUTS - Street warnings */
+.callout {
+  border-left: 5px solid var(--sd-blood-red);
+  background: rgba(139, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.callout[data-callout="danger"] {
+  border-left-color: var(--sd-neon-red);
+  background: rgba(255, 0, 51, 0.15);
+  animation: danger-flash 3s infinite;
+}
+
+@keyframes danger-flash {
+  0%, 100% { box-shadow: 0 0 10px rgba(255, 0, 51, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(255, 0, 51, 0.6); }
+}
+
+.callout[data-callout="danger"] .callout-title {
+  color: var(--sd-neon-red);
+}
+
+/* CODE - Terminal / Lyrics */
+.markdown-preview-view pre {
+  background-color: var(--sd-asphalt);
+  border: 1px solid var(--sd-blood-red);
+  color: var(--sd-neon-green);
+  padding: 20px;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.markdown-preview-view code {
+  background-color: var(--sd-asphalt);
+  border: 1px solid var(--sd-blood-red);
+  color: var(--sd-graffiti-red);
+  padding: 2px 6px;
+  font-weight: bold;
+}
+
+/* BLOCKQUOTES - Lyrics */
+.markdown-preview-view blockquote {
+  border-left: 5px solid var(--sd-gold-chain);
+  background: rgba(255, 215, 0, 0.05);
+  padding: 15px 20px;
+  font-style: italic;
+  position: relative;
+}
+
+.markdown-preview-view blockquote::before {
+  content: '"';
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  color: var(--sd-gold-chain);
+  opacity: 0.3;
+}
+
+/* TABLES */
+.markdown-preview-view table {
+  border: 2px solid var(--sd-blood-red);
+  background: var(--sd-concrete);
+}
+
+.markdown-preview-view th {
+  background: linear-gradient(135deg, var(--sd-blood-red), #B22222);
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 12px;
+}
+
+.markdown-preview-view tr:hover {
+  background: rgba(139, 0, 0, 0.1);
+}
+
+/* LISTS - Paw prints */
+.markdown-preview-view ul > li::marker {
+  content: '🐾 ';
+}
+
+.markdown-preview-view ol > li::marker {
+  color: var(--sd-neon-red);
+  font-weight: bold;
+}
+
+/* SIDEBAR - The Kennel */
+.workspace-split.mod-left-split {
+  background-color: var(--sd-asphalt);
+  border-right: 2px solid var(--sd-blood-red);
+}
+
+.nav-file-title.is-active {
+  background: linear-gradient(90deg, var(--sd-blood-red), transparent);
+  color: var(--sd-gold-chain);
+  border-left: 4px solid var(--sd-neon-red);
+  font-weight: bold;
+}
+
+/* SCROLLBARS */
+::-webkit-scrollbar {
+  width: 12px;
+  background: var(--sd-asphalt);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--sd-blood-red), #B22222);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sd-neon-red);
+}
+
+/* STATUS BAR */
+.status-bar {
+  background: var(--sd-asphalt);
+  border-top: 2px solid var(--sd-blood-red);
+}
+
+/* WATERMARK */
+.workspace-leaf-content[data-type="markdown"]::after {
+  content: 'SD MEDIA | All 66 Dogs | Sin Miedo';
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 0.7em;
+  color: #666;
+  opacity: 0.3;
+  pointer-events: none;
+}

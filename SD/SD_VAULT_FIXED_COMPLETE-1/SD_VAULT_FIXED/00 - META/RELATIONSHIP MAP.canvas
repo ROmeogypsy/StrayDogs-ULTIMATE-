@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {"id":"angel","type":"file","file":"01 - CHARACTERS/High Command/Angel Reyes.md","x":-60,"y":0,"width":200,"height":60,"color":"6"},
+    {"id":"dame","type":"file","file":"01 - CHARACTERS/High Command/Dame.md","x":-360,"y":-160,"width":200,"height":60,"color":"3"},
+    {"id":"stray","type":"file","file":"01 - CHARACTERS/High Command/Stray.md","x":240,"y":-200,"width":200,"height":60,"color":"4"},
+    {"id":"k9","type":"file","file":"01 - CHARACTERS/High Command/K-9 Kian.md","x":240,"y":160,"width":200,"height":60,"color":"5"},
+    {"id":"zed","type":"file","file":"01 - CHARACTERS/High Command/Zed Kidd.md","x":-400,"y":160,"width":200,"height":60,"color":"2"},
+    {"id":"rax","type":"file","file":"01 - CHARACTERS/High Command/Rax Kidd.md","x":-400,"y":0,"width":200,"height":60,"color":"2"},
+    {"id":"scraps","type":"file","file":"01 - CHARACTERS/High Command/Scraps Harper.md","x":40,"y":200,"width":200,"height":60,"color":"1"},
+    {"id":"big9","type":"file","file":"01 - CHARACTERS/High Command/Big 9.md","x":100,"y":-240,"width":200,"height":60,"color":"3"},
+    {"id":"lux","type":"text","text":"Lucia 'Lux' Reyes\n(Oakland, FBI watch)","x":-100,"y":-300,"width":200,"height":60,"color":"6"},
+    {"id":"dmitri","type":"text","text":"Dmitri Volkov\n(deceased, 70 shots)","x":-360,"y":-300,"width":200,"height":60,"color":"1"},
+    {"id":"mikhail","type":"text","text":"Mikhail Volkov\n(INCOMING — threat unknown)","x":300,"y":-340,"width":200,"height":60,"color":"1"},
+    {"id":"room114","type":"file","file":"02 - LOCATIONS/Room 114.md","x":-60,"y":320,"width":200,"height":60},
+    {"id":"kennel","type":"file","file":"02 - LOCATIONS/The Kennel.md","x":-260,"y":320,"width":200,"height":60},
+    {"id":"wormwood","type":"file","file":"02 - LOCATIONS/Wormwood Scrubs Prison.md","x":160,"y":-400,"width":200,"height":60}
+  ],
+  "edges": [
+    {"id":"e1","fromNode":"angel","fromSide":"left","toNode":"dame","toSide":"right","label":"aunt-figure / Executive Producer"},
+    {"id":"e2","fromNode":"angel","fromSide":"top","toNode":"stray","toSide":"left","label":"cipher partner — tinnitus quiets"},
+    {"id":"e3","fromNode":"angel","fromSide":"right","toNode":"k9","toSide":"left","label":"Bay to the Grey — equals"},
+    {"id":"e4","fromNode":"angel","fromSide":"bottom","toNode":"scraps","toSide":"top","label":"parallel survivors"},
+    {"id":"e5","fromNode":"dame","fromSide":"top","toNode":"dmitri","toSide":"bottom","label":"brother (deceased)"},
+    {"id":"e6","fromNode":"dame","fromSide":"left","toNode":"zed","toSide":"right","label":"manages Russian cover"},
+    {"id":"e7","fromNode":"zed","fromSide":"top","toNode":"rax","toSide":"bottom","label":"identical twin"},
+    {"id":"e8","fromNode":"stray","fromSide":"right","toNode":"scraps","toSide":"top","label":"stayed with him / gave coat"},
+    {"id":"e9","fromNode":"stray","fromSide":"top","toNode":"big9","toSide":"bottom","label":"Big 9 stopped him running in"},
+    {"id":"e10","fromNode":"k9","fromSide":"top","toNode":"big9","toSide":"bottom","label":"brother — big 9 took fall for him"},
+    {"id":"e11","fromNode":"angel","fromSide":"top","toNode":"lux","toSide":"bottom","label":"son — she sent the shipment"},
+    {"id":"e12","fromNode":"lux","fromSide":"top","toNode":"dmitri","toSide":"right","label":"husband (deceased)"},
+    {"id":"e13","fromNode":"big9","fromSide":"right","toNode":"wormwood","toSide":"left","label":"incarcerated — whole life"},
+    {"id":"e14","fromNode":"angel","fromSide":"bottom","toNode":"room114","toSide":"top","label":"current location"},
+    {"id":"e15","fromNode":"dame","fromSide":"bottom","toNode":"kennel","toSide":"top","label":"runs it"},
+    {"id":"e16","fromNode":"dmitri","fromSide":"top","toNode":"mikhail","toSide":"left","label":"older brother"},
+    {"id":"e17","fromNode":"dame","fromSide":"top","toNode":"mikhail","toSide":"bottom","label":"uncle — incoming"}
+  ]
+}

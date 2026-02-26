@@ -1,0 +1,12 @@
+{
+    "display_name": "SD Universe — Living World Engine",
+    "version": "2.0.0",
+    "author": "SD Media",
+    "description": "Collaborative fiction engine for the SD Media Universe. You write your character. The AI is the living world — every NPC, consequence, and ambient moment. No AI control over your character, your voice, or your music.",
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "homepage": "",
+    "tags": ["worldbuilding", "collaborative fiction", "author mode", "grime", "living world"]
+}

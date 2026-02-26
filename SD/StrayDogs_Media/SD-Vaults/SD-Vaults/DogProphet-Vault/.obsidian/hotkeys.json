@@ -1,0 +1,8 @@
+{
+  "quickadd:runQuickAdd": [{"modifiers":["Mod"],"key":"Q"}],
+  "obsidian-focus-mode:toggle-focus-mode": [{"modifiers":["Mod","Shift"],"key":"F"}],
+  "longform:open-longform": [{"modifiers":["Mod","Shift"],"key":"L"}],
+  "obsidian-spaced-repetition:srs-note-review-open-note": [{"modifiers":["Mod","Shift"],"key":"S"}],
+  "obsidian-review:review-note": [{"modifiers":["Mod","Shift"],"key":"X"}],
+  "app:toggle-left-sidebar": [{"modifiers":["Mod"],"key":"\\"}]
+}

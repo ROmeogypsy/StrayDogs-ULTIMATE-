@@ -1,0 +1,126 @@
+/* DOG-PROPHET VAULT — SCRIPTURE THEME */
+/* Deep purple. Oracular. Every word carries weight. */
+
+:root {
+  --color-accent: #9966ff;
+  --color-accent-1: #bb88ff;
+  --color-accent-2: #7744dd;
+  --interactive-accent: #9966ff;
+  --interactive-accent-hover: #bb88ff;
+  --text-accent: #aa77ff;
+  --background-primary: #09070f;
+  --background-primary-alt: #0d0b15;
+  --background-secondary: #110e1c;
+  --background-secondary-alt: #161222;
+  --background-modifier-border: #2a1f44;
+  --text-normal: #ddd0f8;
+  --text-muted: #7060a8;
+  --text-faint: #3a2a60;
+}
+
+/* Headers — like scripture headings */
+.markdown-preview-view h1 {
+  color: #cc99ff;
+  font-size: 1.7em;
+  font-weight: 700;
+  font-variant: small-caps;
+  letter-spacing: 0.12em;
+  text-align: center;
+  border-top: 1px solid #2a1f44;
+  border-bottom: 1px solid #2a1f44;
+  padding: 12px 0;
+  margin: 1.5em 0;
+}
+
+.markdown-preview-view h2 {
+  color: #9966ff;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+}
+
+.markdown-preview-view h3 {
+  color: #664499;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Commandment blockquotes — the verdict block */
+.markdown-preview-view blockquote {
+  border-left: none;
+  border-top: 2px solid #9966ff;
+  border-bottom: 2px solid #9966ff;
+  background: linear-gradient(135deg, #120d22 0%, #0a0718 100%);
+  color: #eeaaff;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.05em;
+  line-height: 2.6;
+  letter-spacing: 0.04em;
+  padding: 20px 32px;
+  text-align: center;
+  font-style: italic;
+  box-shadow: 0 0 40px rgba(153, 102, 255, 0.08);
+}
+
+/* Paragraph spacing — weight between words */
+.markdown-preview-view p {
+  margin-bottom: 1.8em;
+  line-height: 2.0;
+}
+
+/* The Commandments — numbered list = scripture */
+.markdown-preview-view ol li {
+  padding: 6px 0;
+  color: #ccaaff;
+  line-height: 1.8;
+}
+
+.markdown-preview-view ol li::marker {
+  color: #9966ff;
+  font-weight: bold;
+}
+
+/* Tags */
+.tag {
+  background-color: rgba(153, 102, 255, 0.12);
+  border: 1px solid rgba(153, 102, 255, 0.35);
+  color: #aa77ff;
+}
+
+/* Tables */
+.markdown-preview-view th {
+  background: #1a1030;
+  color: #9966ff;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  font-size: 0.85em;
+}
+
+/* Callouts */
+.callout[data-callout="commandment"] {
+  --callout-color: 153, 102, 255;
+  --callout-icon: "📜";
+}
+.callout[data-callout="verdict"] {
+  --callout-color: 200, 80, 200;
+  --callout-icon: "⚖️";
+}
+.callout[data-callout="prophecy"] {
+  --callout-color: 100, 180, 255;
+  --callout-icon: "🔮";
+}
+.callout[data-callout="counter"] {
+  --callout-color: 255, 120, 80;
+  --callout-icon: "↯";
+}
+
+/* Horizontal rule — altar divide */
+.markdown-preview-view hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #9966ff, transparent);
+  margin: 2.5em 0;
+}
+
+/* Cursor */
+.cm-cursor { border-left-color: #9966ff !important; border-left-width: 2px !important; }
+.cm-active-line { background: rgba(153, 102, 255, 0.04) !important; }

@@ -1,0 +1,6 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Prism",
+  "enabledCssSnippets": ["k9-fire"],
+  "baseFontSize": 16
+}

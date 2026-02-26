@@ -1,0 +1,18 @@
+{
+  "enabledPlugins": [
+    "templater-obsidian",
+    "dataview",
+    "quickadd",
+    "obsidian-kanban",
+    "longform",
+    "obsidian-focus-mode",
+    "obsidian-vim-im-switch-plugin",
+    "typewriter-mode",
+    "obsidian-dynamic-highlights",
+    "obsidian-linter",
+    "obsidian-word-sprint",
+    "obsidian-auto-link-title",
+    "obsidian-heatmap-tracker",
+    "various-complements"
+  ]
+}

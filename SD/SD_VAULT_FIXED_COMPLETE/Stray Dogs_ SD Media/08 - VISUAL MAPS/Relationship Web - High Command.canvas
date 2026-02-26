@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {"id": "big9", "type": "text", "text": "**BIG 9**\nFounder\nWormwood Scrubs", "x": 0, "y": 0, "width": 200, "height": 100, "color": "1"},
+    {"id": "dame", "type": "text", "text": "**DAME**\nMatriarch\nFiancée", "x": -300, "y": 200, "width": 200, "height": 100, "color": "2"},
+    {"id": "k9", "type": "text", "text": "**K-9**\nThe Voice\nBrother", "x": 300, "y": 200, "width": 200, "height": 100, "color": "3"},
+    {"id": "stray", "type": "text", "text": "**STRAY**\nSilent Sentinel\nDay 1", "x": -300, "y": 400, "width": 200, "height": 100, "color": "4"},
+    {"id": "angel", "type": "text", "text": "**ANGEL**\n66th Dog\nDog-Prophet", "x": 0, "y": 400, "width": 200, "height": 100, "color": "5"},
+    {"id": "zed", "type": "text", "text": "**ZED**\nUnderboss\nZ-Artist", "x": 300, "y": 400, "width": 200, "height": 100, "color": "6"},
+    {"id": "scraps", "type": "text", "text": "**SCRAPS**\n65th Dog\nRedeemed", "x": 0, "y": 600, "width": 200, "height": 100, "color": "1"}
+  ],
+  "edges": [
+    {"id": "e1", "fromNode": "big9", "toNode": "dame", "label": "Fiancée / Co-founder", "color": "2"},
+    {"id": "e2", "fromNode": "big9", "toNode": "k9", "label": "Brother / Saved him", "color": "3"},
+    {"id": "e3", "fromNode": "dame", "toNode": "angel", "label": "Aunt figure / Brought him to London", "color": "5"},
+    {"id": "e4", "fromNode": "stray", "toNode": "angel", "label": "Tinnitus quiets / Cipher partner", "color": "4"},
+    {"id": "e5", "fromNode": "k9", "toNode": "angel", "label": "Territorial → Equals / Bay to the Grey", "color": "3"},
+    {"id": "e6", "fromNode": "zed", "toNode": "scraps", "label": "Forgave him / Dragged by him 2023", "color": "6"},
+    {"id": "e7", "fromNode": "stray", "toNode": "scraps", "label": "Sat with him / Gave Shaw's coat", "color": "4"}
+  ]
+}

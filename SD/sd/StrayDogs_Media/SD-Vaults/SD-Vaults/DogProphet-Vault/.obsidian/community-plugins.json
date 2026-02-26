@@ -1,0 +1,19 @@
+{
+  "enabledPlugins": [
+    "templater-obsidian",
+    "dataview",
+    "quickadd",
+    "longform",
+    "obsidian-focus-mode",
+    "obsidian-kanban",
+    "typewriter-mode",
+    "obsidian-footnotes",
+    "obsidian-spaced-repetition",
+    "obsidian-review",
+    "obsidian-dynamic-highlights",
+    "obsidian-linter",
+    "obsidian-dice-roller",
+    "obsidian-citations",
+    "various-complements"
+  ]
+}

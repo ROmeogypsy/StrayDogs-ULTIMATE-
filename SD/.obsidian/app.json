@@ -1,0 +1,14 @@
+{
+  "defaultViewMode": "source",
+  "foldHeading": false,
+  "foldIndent": true,
+  "showFrontmatter": false,
+  "promptDelete": true,
+  "trashOption": "local",
+  "useMarkdownLinks": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "templates",
+  "attachmentFolderPath": "99-Assets",
+  "alwaysUpdateLinks": true,
+  "theme": "obsidian"
+}

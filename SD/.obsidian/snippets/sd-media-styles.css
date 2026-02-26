@@ -1,0 +1,47 @@
+/* SD Media Vault — Custom Styles */
+
+/* Writer tag color-coding in graph view and tags */
+.tag-k9 { --tag-color: #ff4444; }          /* K-9 = Red / Fire */
+.tag-stray { --tag-color: #aaaaaa; }        /* Stray = Grey / Smoke */
+.tag-z-artist { --tag-color: #44aaff; }     /* Z-Artist = Cold Blue / Ice */
+.tag-dog-prophet { --tag-color: #cc88ff; }  /* Dog-Prophet = Purple / Sacred */
+
+/* Status badges */
+.tag-wip { --tag-color: #ffaa00; }
+.tag-final { --tag-color: #44ff88; }
+.tag-shelved { --tag-color: #666666; }
+
+/* Track files get a subtle left border */
+.markdown-source-view .cm-line:has(.tag-track) {
+  border-left: 3px solid var(--interactive-accent);
+  padding-left: 8px;
+}
+
+/* Callout styling for lore blocks */
+.callout[data-callout="lore"] {
+  --callout-color: 180, 100, 255;
+  --callout-icon: 🐕;
+}
+
+.callout[data-callout="bar"] {
+  --callout-color: 255, 100, 100;
+  --callout-icon: 🎤;
+}
+
+.callout[data-callout="prophet"] {
+  --callout-color: 150, 80, 255;
+  --callout-icon: 📜;
+}
+
+/* Focus mode — distraction free writing */
+.is-focus-mode .workspace-ribbon,
+.is-focus-mode .status-bar {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Make the lyrics section stand out */
+h2:contains("Lyrics") + * {
+  font-family: var(--font-monospace);
+  line-height: 2;
+}
